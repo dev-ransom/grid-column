@@ -1,0 +1,179 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body{
+ margin: 0;
+ padding: 0;
+ line-height: 1.5;
+ font-family: serif;
+ font-weight: 500;
+ font-size: 1.5;
+ color: black;
+ background: white;
+}
+
+.main-page{
+ width: 1200px;
+ background: #eee;
+ color: inherit;
+ padding: 20px;
+ margin: 100px auto;
+display: grid;
+grid-template-columns: repeat(6,1fr);
+gap: 10px;
+border-radius: 10px;
+}
+
+
+.card:nth-child(2){
+ background: purple;
+ color: white;
+ text-shadow: 0px 0px  2px;
+}
+
+.card:nth-child(1){
+ background: rgb(112, 128, 144);
+ color: white;
+ text-shadow: 0px 0px  2px;
+}
+.card:nth-child(3){
+ background: rgb(175, 238, 238);
+ color: white;
+ text-shadow: 0px 0px  2px;
+}
+
+.card:nth-child(4){
+ background: olive ;
+ color: white;
+ text-shadow: 0px 0px  2px;
+}
+
+.card:nth-child(5){
+ background: tomato ;
+ color: white;
+ text-shadow: 0px 0px  2px;
+}
+
+.card:nth-child(6){
+ background: palevioletred ;
+ color: white;
+ text-shadow: 0px 0px  2px;
+}
+
+.card:nth-child(7){
+ background: sandybrown ;
+ color: white;
+ text-shadow: 0px 0px  2px;
+}
+
+.card:nth-child(8){
+ background: deeppink;
+ color: white;
+ text-shadow: 0px 0px  2px;
+}
+
+.card:nth-child(9){
+ background: firebrick;
+ color: white;
+ text-shadow: 0px 0px  2px;
+}
+
+.card:nth-child(10){
+ background: khaki;
+ color: white;
+ text-shadow: 0px 0px  2px;
+}
+
+.card:nth-child(11){
+ background: lime;
+ color: white;
+ text-shadow: 0px 0px  2px;
+}
+
+.card:nth-child(12){
+ background: cornflowerblue;
+ color: white;
+ text-shadow: 0px 0px  2px;
+}
+
+.card:nth-child(13){
+ background: cadetblue;
+ color: white;
+ text-shadow: 0px 0px  2px;
+}
+
+.card:nth-child(14){
+ background: crimson;
+ color: white;
+ text-shadow: 0px 0px  2px;
+}
+
+.card:nth-child(15){
+ background: chocolate;
+ color: white;
+ text-shadow: 0px 0px  2px;
+}
+
+.card:nth-child(16){
+ background: violet;
+ color: white;
+ text-shadow: 0px 0px  2px;
+}
+
+.card:nth-child(17){
+ background: blue;
+ color: white;
+ text-shadow: 0px 0px  2px;
+}
+
+.card:nth-child(18){
+ background: maroon;
+ color: white;
+ text-shadow: 0px 0px  2px;
+}
+
+.card:nth-child(19){
+ background: navy;
+ color: white;
+ text-shadow: 0px 0px  2px;
+}
+
+.card:nth-child(20){
+ background: burlywood;
+ color: white;
+ text-shadow: 0px 0px  2px;
+}
+
+.card:nth-child(21){
+ background: lemonchiffon;
+ color: white;
+ text-shadow: 0px 0px  2px;
+}
+.grid1{
+grid-column: span 2;
+}
+
+.grid2{
+grid-column: span 3;
+}
+
+.card{
+ padding: 30px;
+  box-shadow: rgba(17, 12, 46, 0.15)5px 48px 100px 0px;
+  border-radius: 10px;
+  background: white;
+}
+
+@media screen and (max-width:768px){
+ .main-page{
+  display: grid ;
+  grid-template-columns:1fr;
+  width: 80%;
+  /* margin: auto; */
+
+ }
+
+}
